@@ -1,4 +1,4 @@
-maduro_project
+project_maduro
 ====================
 Chef cookbook for building basic httpd server in AWS/EC2 w/ Test-Kitchen
 
@@ -34,8 +34,8 @@ Please see attributes file for specific details.
 
 Usage
 -----
-#### maduro_project::default
-Just include `maduro_project` in your node's `run_list`:
+#### project_maduro::default
+Just include `project_maduro` in your node's `run_list`:
 **Note:** See individual recipes for further notes on usage
 
 
@@ -43,7 +43,7 @@ Just include `maduro_project` in your node's `run_list`:
 {
   "name":"my_node",
   "run_list": [
-    "recipe[maduro_project]"
+    "recipe[project_maduro]"
   ]
 }
 ```

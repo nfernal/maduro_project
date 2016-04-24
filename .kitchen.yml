@@ -7,7 +7,7 @@ platforms:
     driver:
       name: ec2
       require_chef_omnibus: true
-      transport.username: centos
+      transport.username: root
       transport.ssh_key: C:\Users\Jonny\.ssh\id_rsa
       aws_ssh_key_id: id_rsa
       region: <%= ENV['AWS_DEFAULT_REGION'] %>
