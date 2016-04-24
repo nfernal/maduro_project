@@ -1,0 +1,8 @@
+<% node['iptables']['rules'].each do |ipt| %>
+<% if ipt.comment == nil %>
+<%= ipt.rule %>
+<% else %>
+<%= ipt.comment %>
+<%= ipt.rule %>
+<% end %>
+<% end %>

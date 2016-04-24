@@ -1,0 +1,12 @@
+source 'https://rubygems.org'
+
+gem 'berkshelf'
+gem 'test-kitchen'
+gem 'chef-vault'
+gem 'kitchen-ec2'
+gem 'rubocop'
+gem 'foodcritic'
+gem 'chef'
+gem 'chefspec'
+gem 'serverspec'
+gem 'rake'
