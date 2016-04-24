@@ -3,7 +3,7 @@ maduro_project
 Chef cookbook for building basic httpd server in AWS/EC2 w/ Test-Kitchen
 
 Currently supports:
-- CentOS
+- CentOS 6
 - Chef 12
 
 AWS Setup
@@ -61,7 +61,9 @@ Contributing
 
 Testing
 ------------
-Unit tests, using rspec and ChefSpec, are required
+Coming soon ....
+
+<!-- Unit tests, using rspec and ChefSpec, are required
 Integration tests using Serverspec are also required
 
 Make sure you have the required gems/verions installed
@@ -77,12 +79,8 @@ Then run all of the tests with the gem environment specific for this project
 To run specific test 'bundles'
 * `bundle exec rake style`
 * `bundle exec rake unit`
-* `bundle exec rake integration:kitchen:openstack`
+* `bundle exec rake integration:kitchen:openstack` -->
 
 Contributors
 -------------------
 * Jonathan Thompson
-* Rohit Kumar
-* Deepa Sarasamma
-* Andrew Bleasdale
-* Vijayakumar Pakkiri
